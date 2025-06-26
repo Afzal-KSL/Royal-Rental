@@ -1,8 +1,8 @@
 # Royal-Rental
-A Mobile Application to Rent Things
+A Mobile Application to Rent Things.
 
 Users can rent their things and borrow other things without any mediator or charges.
-They can also track their products.
+They can also track their things.
 
 Software Used: Android Studio
 
@@ -16,15 +16,15 @@ For Map Integration: Open Street Map(Open Source) and Google Map to fetch curren
 
 # A few Screenshots:
 
-1.A Simple Login Page and Reset Password via Email.
+1. A Simple Login Page and Reset Password via Email.
 
-2.Users can add their things for rent and gain benefits.
+2. Users can add their things for rent and gain benefits.
 
-3.Users can view things and borrow it.
+3. Users can view things and borrow it.
 
-4.Now, They can buy it.
+4. Now, They can buy it.
 
-5.If you want to track the thing, just click it.
+5. If you want to track the thing, just click it.
 
 ![Login](https://github.com/Afzal-KSL/Royal-Rental/blob/268882e4059377b926cde9c129471dcdc919f3d9/assests/images/login.jpg)
 ![Add](https://github.com/Afzal-KSL/Royal-Rental/blob/268882e4059377b926cde9c129471dcdc919f3d9/assests/images/add.jpg)
