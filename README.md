@@ -4,6 +4,16 @@ A Mobile Application to Rent Things
 Users can rent their things and borrow other things without any mediator or charges.
 They can also track their products.
 
+Software Used: Android Studio
+
+Language: Java + XML
+
+For Local Storage: SQLite
+
+For Cloud Storage: Firebase
+
+For Map Integration: Open Street Map(Open Source) and Google Map to fetch current location.
+
 # A few Screenshots:
 
 1.A Simple Login Page and Reset Password via Email.
@@ -24,10 +34,6 @@ They can also track their products.
 ![Buy](https://github.com/Afzal-KSL/Royal-Rental/blob/268882e4059377b926cde9c129471dcdc919f3d9/assests/images/buy.jpg)
 ![Track](https://github.com/Afzal-KSL/Royal-Rental/blob/268882e4059377b926cde9c129471dcdc919f3d9/assests/images/track.jpg)
 ![Map](https://github.com/Afzal-KSL/Royal-Rental/blob/268882e4059377b926cde9c129471dcdc919f3d9/assests/images/map.jpg)
-
-For Local Storage: SQLite
-
-For Cloud Storage: Firebase
 
 For More Details: [📄 Download PPT](https://github.com/Afzal-KSL/Royal-Rental/blob/268882e4059377b926cde9c129471dcdc919f3d9/assests/docs/Royal%20Rental%20PPT.pptx)
 
