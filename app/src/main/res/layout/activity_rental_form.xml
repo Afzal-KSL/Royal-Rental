@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toolbg"
+    tools:context=".RentalForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/upload_image_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                android:onClick="selectImageFromGallery"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/product_name_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:hint="Enter Product Name"
+            android:textColor="@color/black"
+            android:minHeight="48dp"
+            android:inputType="textCapWords"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/product_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Company:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/product_company_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:hint="Enter Product Company"
+            android:minHeight="48dp"
+            android:inputType="textCapWords"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/product_seller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seller Name:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/product_seller_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:hint="Enter Seller Name"
+            android:minHeight="48dp"
+            android:inputType="textCapWords"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/seller_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seller Mail:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/seller_mail_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:hint="Enter Seller Mail"
+            android:minHeight="48dp"
+            android:inputType="textCapWords"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/product_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Description:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/product_description_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:hint="Enter Product Description"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:minLines="2"
+            android:maxLines="6"
+            android:gravity="top"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Price:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/product_price_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:hint="Enter Product Price"
+            android:textColor="@color/black"
+            android:minHeight="48dp"
+            android:inputType="number"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/product_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Location:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/product_location_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:hint="Enter Product Location"
+            android:minHeight="48dp"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:minLines="2"
+            android:maxLines="6"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:padding="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:minHeight="50dp"
+                android:onClick="addRentalToDB"
+                android:text="Add" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

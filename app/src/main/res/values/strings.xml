@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rental</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="price_format">Price: ₹%s</string>
+    <string name="sort_filter_button_desc">Sort and Filter Button</string>
+</resources>

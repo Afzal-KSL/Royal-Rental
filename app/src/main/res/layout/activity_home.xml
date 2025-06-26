@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toolbg"
+    tools:context=".Home">
+
+    <!-- Rent Button -->
+    <Button
+        android:id="@+id/rent_btn"
+        android:layout_width="187dp"
+        android:layout_height="93dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:onClick="myRentIntent"
+        android:text="Rent" />
+
+    <!-- Borrow Button -->
+    <Button
+        android:id="@+id/borrow_btn"
+        android:layout_width="187dp"
+        android:layout_height="93dp"
+        android:layout_below="@id/rent_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:onClick="myBorrowIntent"
+        android:text="Borrow" />
+
+    <Button
+        android:id="@+id/account_btn"
+        android:layout_width="187dp"
+        android:layout_height="93dp"
+        android:layout_below="@id/borrow_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:onClick="myAccountIntent"
+        android:text="Cart" />
+
+    <!-- Floating Circular Calculator Button -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/calc_card"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/account_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp"
+        android:backgroundTint="@color/yellow"
+        android:onClick="myCalcIntent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/ic_calculator"
+            android:background="@color/teal_700"
+            android:contentDescription="Calculator"
+            android:scaleType="centerInside"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
