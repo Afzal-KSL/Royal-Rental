@@ -8,7 +8,7 @@ A Simple Login Page and Reset Password via Email
 ![Login](assets/images/login.jpg)
 
 Users can add their things for rent and gain benefits
-![Add](assets/images/add.jpg)
+![Add](https://github.com/Afzal-KSL/Royal-Rental/blob/34805d3c33d95c0c7496568dbcac059254b89df8/assests/images/add.jpg)
 
 Users can view things and borrow it
 ![View](assets/images/view.jpg)
@@ -23,7 +23,7 @@ If you want to track the thing, just click it.
 For Local Storage: SQLite
 For Cloud Storage: Firebase
 
-For More Details: [📄 Download PPT](assets/docs/Royal%20Rental%20PPT.pptx)
+For More Details: [📄 Download PPT](https://github.com/Afzal-KSL/Royal-Rental/blob/34805d3c33d95c0c7496568dbcac059254b89df8/assests/docs/Royal%20Rental%20PPT.pptx)
 
 # Future Enchancements
 
